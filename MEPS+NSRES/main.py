@@ -48,7 +48,7 @@ parser.add_argument('--base_methods', type=int, default=0,
 parser.add_argument('--use_meta', type=int, default=1,
                      help='use_meta:{0:False,1:True}')
 parser.add_argument('--meta_model', type=int, default=0,
-                     help='use-history:{0:Without LSTM,1:With LSTM,2:Non-parametric model(BO}')
+                     help='use-history:{0:Without LSTM,1:With LSTM,2:Non-parametric model(BO)}')
 parser.add_argument('--seed', type=int, default=0,
                      help='the random seed')
 
