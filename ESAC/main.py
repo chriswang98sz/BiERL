@@ -54,7 +54,7 @@ parser.add_argument('--replay_size', type=int, default=1000000, metavar='N',
 parser.add_argument('--batch_size', type=int, default=256, metavar='N',
                     help='batch size (default: 256)')
 parser.add_argument('--meta_model', type=int, default=0,
-                     help='use-history:{0:BiES,1:BiES_LSTM,2:BOES}')
+                     help='use-history:{0:Without LSTM,1:With LSTM,2:Non-parametric model(BO)}')
 if __name__ == '__main__':
     print("============================================================================================")
     # set device to cpu or cuda
