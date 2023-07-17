@@ -44,11 +44,11 @@ parser.add_argument('--T', type=int, default=1000,
 parser.add_argument('--t', type=int, default=10,
                     metavar='T', help='iterations update mata')
 parser.add_argument('--base_methods', type=int, default=0,
-                     help='the lower methods:{0:VanillaES,1:MEPS,2}')
+                     help='the lower methods:{0:VanillaES,1:With entropy,2:NSES,3:NSRES}')
 parser.add_argument('--use_meta', type=int, default=1,
                      help='use_meta:{0:False,1:True}')
 parser.add_argument('--meta_model', type=int, default=0,
-                     help='use-history:{0:BiES,1:BiES_LSTM,2:BOES}')
+                     help='use-history:{0:Without LSTM,1:With LSTM,2:Non-parametric model(BO}')
 parser.add_argument('--seed', type=int, default=0,
                      help='the random seed')
 
