@@ -24,7 +24,7 @@ parser.add_argument('--gamma', type=float, default=1,
 parser.add_argument('--sigma_meta', type=float, default=0.05, metavar='MSD',
                     help='initial metanoise standard deviation')
 parser.add_argument('--sigma', type=float, default=0.05, metavar='MSD',
-                    help='initial noise standard deviation, not need in meat-es')
+                    help='initial noise standard deviation, not need in parametric model')
 parser.add_argument('--lr', type=float, default=0.05, metavar='LR',
                     help='learning rate')
 parser.add_argument('--lr_meta', type=float, default=0.03, metavar='LR',
