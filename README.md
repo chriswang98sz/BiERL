@@ -16,3 +16,5 @@ The hyperparameters can alse be reset:
 
 `python MEPS+NSRES\main.py --env_name Walker2d-v2 --use_meta 1 --base_methods 3 --meta_model 1 --seed 1 --lr 0.01 --n 40 --k 20`
 
+More initial settings for each methods can be found in main.py.
+
