@@ -44,7 +44,7 @@ parser.add_argument('--T', type=int, default=1000,
 parser.add_argument('--t', type=int, default=10,
                     metavar='T', help='iterations update mata')
 parser.add_argument('--base_methods', type=int, default=0,
-                     help='the lower methods:{0:VanillaES,1:With entropy,2:NSES,3:NSRES}')
+                     help='the lower methods:{0:VanillaES,1:With entropy,2:NSES,3:NSRES,4,NSRAES}')
 parser.add_argument('--use_meta', type=int, default=1,
                      help='use_meta:{0:False,1:True}')
 parser.add_argument('--meta_model', type=int, default=0,
